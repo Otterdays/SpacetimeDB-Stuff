@@ -1,6 +1,6 @@
 {
   "name": "random-tools",
-  "license": "ISC",
+  "license": "AGPL-3.0-or-later",
   "type": "module",
   "scripts": {
     "build": "cargo build -p spacetimedb-standalone && cargo run -p spacetimedb-cli -- build",

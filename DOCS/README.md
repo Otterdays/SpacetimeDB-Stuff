@@ -584,6 +584,10 @@ See [09_GAMING_ECOSYSTEMS.md](09_GAMING_ECOSYSTEMS.md) for full details.
 
 This is a living document. Add ideas, update pricing, mark favorites.
 
+### Repo improvement backlog
+
+- See `DOCS/SUGGESTIONS.md` for a curated backlog derived from `grok-4.20-suggestions.md`.
+
 **Suggested workflow:**
 
 1. Read the master index (this file)

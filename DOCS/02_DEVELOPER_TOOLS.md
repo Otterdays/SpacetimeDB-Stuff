@@ -1920,3 +1920,14 @@ _Save everything_
 ---
 
 _Last updated: 2026_
+
+---
+
+# 📎 APPENDIX: Legacy pricing examples (to make ideas more “sellable”)
+
+Pulled forward from `DOCS/legacy/SPACETIMEDB_IDEAS.md` as examples of how to attach pricing to an otherwise-good idea.
+
+- **SpacetimeDB Unreal Plugin**: “$99/year per project + usage”
+- **SpacetimeDB Unity SDK**: “$49/year per project + usage”
+- **SpacetimeDB Godot Addon**: “Free + paid support + hosting”
+- **SpacetimeDB Defold Extension**: “Free tier + $29/year for hosting”

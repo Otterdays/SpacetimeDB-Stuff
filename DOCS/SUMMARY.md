@@ -7,6 +7,7 @@
 
 ## Quick Links
 - [SCRATCHPAD](SCRATCHPAD.md) — Active tasks, blockers
+- [SUGGESTIONS](SUGGESTIONS.md) — Curated backlog / improvements
 - [SBOM](SBOM.md) — Dependencies
 - [STYLE_GUIDE](STYLE_GUIDE.md) — Conventions
 - [ARCHITECTURE](ARCHITECTURE.md) — System structure

@@ -3145,3 +3145,30 @@ _Build-your-own game kits_
 ---
 
 _Last updated: 2026_
+
+---
+
+# 📎 APPENDIX: Legacy “Idea Cards” (more structured)
+
+Pulled forward from `DOCS/legacy/SPACETIMEDB_IDEAS_AAA.md` to make future additions easier to scope, price, and pitch.
+
+## Example cards (condensed)
+
+### Eclipse City: Real-Time Open-World MMO-lite
+- **Pitch**: persistent districts; 100–200 players/shard; player-run economy + governance
+- **What you get**: storefronts/district ownership; realtime city events; live NPC economy; governance panels
+- **SpacetimeDB fit**: region tables + atomic transactions; scheduled events; per-district views/subscriptions
+- **Monetization**: district premiums; city services microtx; cosmetic map skins
+- **MVP scope**: 2 districts; ~50 players/shard; basic storefronts/events + core governance
+
+### Neon Hyperrace: Real-Time Online Racing
+- **Pitch**: anti-grav racing with realtime track hazards + rivalry interactions
+- **SpacetimeDB fit**: realtime position updates; track-state tables; subscriptions for leaderboards/replays
+- **Monetization**: race passes; cosmetics; track packs
+- **MVP scope**: limited tracks; core collision + lap timing
+
+### Astral Heist: Real-Time Space Heist
+- **Pitch**: 5–6 player crew heists with simultaneous actions + realtime alert cascades
+- **SpacetimeDB fit**: atomic loot distribution reducers; event-driven security alerts; scheduled reinforcements
+- **Monetization**: heist packs; cosmetics; DLC ships
+- **MVP scope**: 1 ship; 2 heists; a couple loadouts/roles
