@@ -567,6 +567,7 @@ See [09_GAMING_ECOSYSTEMS.md](09_GAMING_ECOSYSTEMS.md) for full details.
 
 ### SpacetimeDB Resources
 
+- [SpacetimeDB Home](https://spacetimedb.com/home)
 - [Official Docs](https://spacetimedb.com/docs)
 - [TypeScript SDK](https://spacetimedb.com/docs/clients/typescript)
 - [Rust SDK](https://spacetimedb.com/docs/clients/rust)

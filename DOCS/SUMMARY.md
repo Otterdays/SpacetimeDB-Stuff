@@ -18,6 +18,10 @@
 - **Backend:** SpacetimeDB 2.0 (TypeScript module)
 - **Package manager:** bun
 
+## SpacetimeDB
+
+- [SpacetimeDB Home](https://spacetimedb.com/home) · [Docs](https://spacetimedb.com/docs)
+
 ## Run
 ```bash
 bun run dev

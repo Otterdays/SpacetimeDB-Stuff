@@ -30,6 +30,10 @@ flowchart TB
 - `spacetimedb/` — SpacetimeDB TypeScript module (user, message tables; set_name, send_message reducers)
 - `DOCS/` — Project docs and SpacetimeDB ideas
 
+## Links
+
+- [SpacetimeDB Home](https://spacetimedb.com/home) · [Docs](https://spacetimedb.com/docs)
+
 ## Data Flow
 1. Client connects via `DbConnection` to SpacetimeDB (local or maincloud)
 2. `clientConnected` creates/updates user row

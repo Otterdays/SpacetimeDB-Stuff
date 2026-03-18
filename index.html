@@ -4,9 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <meta name="description" content="STDB-WIKI — curated ideas and patterns for games and programs built on SpacetimeDB." />
+    <title>STDB-WIKI</title>
+    <style>
+      :root { --wiki-bg: #1a1a2e; --wiki-fg: #eaeaea; --wiki-accent: #0f3460; --wiki-link: #4fc3f7; }
+      body { margin: 0; font-family: system-ui, sans-serif; background: var(--wiki-bg); color: var(--wiki-fg); }
+      .wiki-nav { background: var(--wiki-accent); padding: 0.75rem 1.5rem; display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+      .wiki-nav a { color: var(--wiki-link); text-decoration: none; font-weight: 500; }
+      .wiki-nav a:hover { text-decoration: underline; }
+      .wiki-brand { font-weight: 700; font-size: 1.25rem; color: #fff; }
+      .wiki-main { max-width: 48rem; margin: 0 auto; padding: 1.5rem; line-height: 1.6; }
+      .wiki-main h1 { margin-top: 0; }
+      .wiki-main a { color: var(--wiki-link); }
+    </style>
   </head>
   <body>
+    <nav class="wiki-nav">
+      <span class="wiki-brand">STDB-WIKI</span>
+      <a href="https://spacetimedb.com/home">SpacetimeDB</a>
+      <a href="https://spacetimedb.com/docs">Docs</a>
+      <a href="https://github.com/Otterdays/SpacetimeDB-Stuff">GitHub</a>
+    </nav>
+    <main class="wiki-main">
+      <h1>SpacetimeDB Ideas & Patterns</h1>
+      <p>Curated ideas for games, programs, and tools built on <a href="https://spacetimedb.com/home">SpacetimeDB</a> — real-time backend and database for apps and games.</p>
+      <p><strong>Quick links:</strong> <a href="https://spacetimedb.com/home">Home</a> · <a href="https://spacetimedb.com/docs">Docs</a> · <a href="https://github.com/Otterdays/SpacetimeDB-Stuff">Repo</a></p>
+    </main>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

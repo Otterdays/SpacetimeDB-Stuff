@@ -2,17 +2,47 @@
 
 # SUGGESTIONS
 
-This doc is the **curated, actionable backlog** for improving the repo’s shipped example app(s) and for turning “random-tools” into a reusable SpacetimeDB playground.
-
+This doc is the **curation of ideas** for games, programs, and tools built on SpacetimeDB — what to explore, prototype, or ship. Not a backlog for any single app.
 ## Sources
 
-- `grok-4.20-suggestions.md` (2026-03-18): raw brainstorm list (kept verbatim in repo)
+- [SpacetimeDB Home](https://spacetimedb.com/home)
+- `grok-4.20-suggestions.md` — raw brainstorm (kept verbatim in repo)
+- `DOCS/01_GAMES.md` → `09_GAMING_ECOSYSTEMS.md` — 400+ ideas by category
 
 ---
 
-## Repo Backlog (curated)
+## Where to Look
 
-### Chat: core upgrades
+| Want to build… | Go to |
+|----------------|-------|
+| **Games** (party, MMO, BR, etc.) | [01_GAMES.md](01_GAMES.md) |
+| **Dev tools** (plugins, BaaS, systems) | [02_DEVELOPER_TOOLS.md](02_DEVELOPER_TOOLS.md) |
+| **Voice / chat / comms** | [03_VOICE_COMMS.md](03_VOICE_COMMS.md) |
+| **Streaming / video** | [04_STREAMING_VIDEO.md](04_STREAMING_VIDEO.md) |
+| **Business tools** | [05_BUSINESS_TOOLS.md](05_BUSINESS_TOOLS.md) |
+| **Dashboards** | [06_DASHBOARDS.md](06_DASHBOARDS.md) |
+| **Commerce / finance** | [07_COMMERCE_FINANCE.md](07_COMMERCE_FINANCE.md) |
+| **Special industries** | [08_SPECIAL_INDUSTRIES.md](08_SPECIAL_INDUSTRIES.md) |
+| **Gaming ecosystems** | [09_GAMING_ECOSYSTEMS.md](09_GAMING_ECOSYSTEMS.md) |
+
+---
+
+## Building Blocks (patterns for any SpacetimeDB project)
+
+Reusable patterns you can pull into games or programs:
+
+- **Private DMs** — `direct_message` table; filtered subscription per user pair
+- **Rooms / channels** — `room` + `message.room_id`; create/join/leave reducers
+- **Reactions** — `reaction` table linked to message; live counters
+- **Typing indicators** — ephemeral table + scheduled cleanup
+- **Profiles / online status** — `profile`, `online_status`; update in connect/disconnect
+- **Friends / moderation** — `friend_request`, `friend`, `user_role`; role-gated reducers
+- **Leaderboards** — counters or query-view aggregation
+- **Scheduled jobs** — auto-cleanup, stats, archive; use scheduled tables/reducers
+
+---
+
+## (Legacy) Chat-specific patterns (for reference)
 
 - **Private DMs**
   - **Data**: `direct_message` table with `id (u64 pk autoInc)`, `sender (identity)`, `receiver (identity)`, `sent (timestamp)`, `text (string)`
