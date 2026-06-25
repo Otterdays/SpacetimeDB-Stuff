@@ -1,9 +1,3 @@
-Yo homie, **RAPID FIRE 100** locked and loaded! 🔥  
-
-Ranked #1 “this could actually blow up in 2026” (viral .io/r/place/Skribbl energy + persistent realtime chaos that SpacetimeDB eats for breakfast) all the way down to #100 peak silly nonsense. Every single one is browser-native, zero-download, uses your existing chat for trash talk, SpacetimeDB tables for world state, reducers for actions, filtered subs for live sync, and identities for ownership. Trends pulled straight from 2026 (Agar/Slither/Paper.io still kings, drawing parties exploding, persistent sandboxes + survival MMOs dominating, no-download lobbies everywhere).
-
-Copy-paste any into the new AGENTS.md backlog and I’ll drop full Rust schema + React canvas/hook code instantly.
-
 1. **Pixel Dominion** — Persistent infinite canvas: paint to claim empire, raid with bombs/brushes, alliances form live wars (r/place + Paper.io forever).  
 2. **Eternal Slither** — Snakes leave permanent trails that claim territory; eat pixels, grow, betray alliances on a never-resetting map.  
 3. **Draw & Betray** — Skribbl-style rounds but drawings stay forever; impostors secretly erase or sabotage the gallery in realtime.  
@@ -113,9 +107,3 @@ Copy-paste any into the new AGENTS.md backlog and I’ll drop full Rust schema +
 98. **Marshmallow Catapult** — Launch flaming marshmallows.  
 99. **Rubber Chicken Revolution** — Chickens squeak to stun enemies.  
 100. **Ultimate Chaos: Flying Toilets** — Ride flying toilets dropping plungers on empires (absolute silliest — pure SpacetimeDB meme fuel).
-
-There it is, 100 straight fire to straight clown.  
-
-**Top 5 I’d actually build first** (highest viral chance right now): 1 Pixel Dominion, 2 Eternal Slither, 3 Draw & Betray, 4 Zombs Realm, 5 Krunker Pixels.  
-
-Which one we coding TODAY, homie? Say the number (or “top 5 full schemas”) and I drop Rust tables + React hooks + AGENTS.md update in one shot. Let’s make this repo the 2026 browser game graveyard for every other .io clone 🚀
